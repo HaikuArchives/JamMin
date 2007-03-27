@@ -1,0 +1,20 @@
+//file TODO
+
+- IncludeSettingsView e LinkerSettingsView hanno troppe funzioni copiate tra una e l'altra
+
+- TargetSettingsWin deve essere informata dei cambiamenti tipo "target name" quando viene
+premuto un tasto nei controlli di testo (funzione MouseDown()?)
+
+- se viene chiusa la finestra principale del target, dovrebbe essere chiusa anche quella
+delle impostazioni. Oppure (meglio) quest'ultima dovrebbe essere modale.
+
+- La distinzione librerie di sistema / librerie utente non ha senso.
+Modificare TargetConfig e la finestra principale (AddToProject) di conseguenza - FATTO
+
+- l'utente deve poter decidere se salvare path relativi o assoluti, sia in "Add Files" nella
+finestra principale che in TargetSettingsWin, bottoni "Add".
+Deve esserci una checkbox nel BFilePanel - FATTO
+
+- modificare IncludeSettingsView come LinkerSettingsView. - FATTO
+
+- riordinare gli include file: mettere tutto in un unico header (JamMinApp.h?)

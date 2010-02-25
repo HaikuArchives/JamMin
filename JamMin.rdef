@@ -1,0 +1,22 @@
+
+resource file_types message {
+	"types" = "application/x-vnd.generic-JamMin-File"
+};
+
+resource app_signature "application/x-vnd.generic-JamMin";
+
+resource app_version {
+	major  = 0,
+	middle = 1,
+	minor  = 0,
+
+	variety = B_APPV_ALPHA,
+	internal = 0,
+
+	short_info = "The Jamfile Administrator",
+	long_info = #'CSTR' array {
+
+	}
+};
+
+resource app_flags B_SINGLE_LAUNCH;

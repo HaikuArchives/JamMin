@@ -86,7 +86,7 @@ JamMinWindow::JamMinWindow(entry_ref* ref) :
 	BWindow(
 	BRect(64, 64, 320, 256),
 	"JamMan Window",
-	B_DOCUMENT_WINDOW,
+	B_DOCUMENT_WINDOW, B_NOT_CLOSABLE,
 	0	)
 {
 	BFile file;

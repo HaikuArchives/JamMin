@@ -22,7 +22,7 @@ class JMRefFilter : public BRefFilter {
 
 	bool Filter(const entry_ref *ref,
 		BNode *node,
-		struct stat *st,
+		struct stat_beos *st,
 		const char *filetype)
 	{
 		//DPRINT("JMRefFilter::Filter: filetype = " << filetype);

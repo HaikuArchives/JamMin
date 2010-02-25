@@ -6,7 +6,7 @@
 premuto un tasto nei controlli di testo (funzione MouseDown()?)
 
 - se viene chiusa la finestra principale del target, dovrebbe essere chiusa anche quella
-delle impostazioni. Oppure (meglio) quest'ultima dovrebbe essere modale.
+delle impostazioni. Oppure (meglio) quest'ultima dovrebbe essere modale. - FATTO 25/10/2010
 
 - La distinzione librerie di sistema / librerie utente non ha senso.
 Modificare TargetConfig e la finestra principale (AddToProject) di conseguenza - FATTO

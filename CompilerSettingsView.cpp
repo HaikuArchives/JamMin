@@ -204,7 +204,8 @@ CompilerSettingsView::GetOptimizationLevel()
 		return O_SOME;
 	} else if (label.Compare("Full") == 0) {
 		return O_FULL;
-	}	
+	}
+	return O_NONE;
 }
 
 
@@ -221,6 +222,7 @@ CompilerSettingsView::GetWarningsOption()
 	} else if (label.Compare("All") == 0) {
 		return W_ALL;
 	}
+	return W_NONE;
 }
 
 

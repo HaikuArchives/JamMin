@@ -1001,12 +1001,12 @@ JamMinWindow::IsSystemLibraryPath(BPath* libPath)
 	//if (ret == B_OK) {
 		if ( strcmp(libPath->Path(), path.Path()) == 0 ) return true;
 	//}
-	ret = find_directory(B_COMMON_LIB_DIRECTORY, &path);
+	ret = find_directory(B_SYSTEM_LIB_DIRECTORY, &path);
 	if (ret == B_OK) {
 		if ( strcmp(libPath->Path(), path.Path()) == 0 ) return true;
 	}
 	
-	ret = find_directory(B_USER_LIB_DIRECTORY, &path); //the same as B_COMMON_LIB_DIRECTORY
+	ret = find_directory(B_USER_LIB_DIRECTORY, &path); //the same as B_SYSTEM_LIB_DIRECTORY
 	if (ret == B_OK) {
 		if ( strcmp(libPath->Path(), path.Path()) == 0 ) return true;
 	}

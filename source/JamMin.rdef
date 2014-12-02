@@ -13,10 +13,7 @@ resource app_version {
 	variety = B_APPV_ALPHA,
 	internal = 0,
 
-	short_info = "The Jamfile Administrator",
-	long_info = #'CSTR' array {
-
-	}
+	short_info = "The Jamfile Administrator"
 };
 
 resource app_flags B_SINGLE_LAUNCH;
